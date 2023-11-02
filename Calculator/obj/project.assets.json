@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Lucas Santana\\.nuget\\packages\\": {}
+    "C:\\Users\\lsantana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
-      "packagesPath": "C:\\Users\\Lucas Santana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\obj\\",
+      "projectPath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj",
+      "packagesPath": "C:\\Users\\lsantana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lucas Santana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lsantana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,22 +51,17 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.22, 3.1.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

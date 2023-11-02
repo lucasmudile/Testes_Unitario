@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oepTgCPUgNrTgb9atMICve0bQu90cNNFmzePrIpPXV2uZE9OPCiTONUyxO9doIZlbThliwjPur7DZUQxuY3qZg==",
+  "dgSpecHash": "9h7fn/8Q5wWdJ83UqybNr6Amv4mjXt4/XcmnZ/YoEc96QMBMyeh5Rb9BGjZittvg/nBVSjdwZq2yn22vLCliyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Lucas Santana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
