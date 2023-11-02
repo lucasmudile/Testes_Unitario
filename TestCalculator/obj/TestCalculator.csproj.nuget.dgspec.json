@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\TestCalculator\\TestCalculator.csproj": {}
+    "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\TestCalculator\\TestCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
-        "packagesPath": "C:\\Users\\Lucas Santana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\obj\\",
+        "projectPath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj",
+        "packagesPath": "C:\\Users\\lsantana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas Santana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lsantana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,42 +39,43 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.22, 3.1.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\TestCalculator\\TestCalculator.csproj": {
+    "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\TestCalculator\\TestCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\TestCalculator\\TestCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\TestCalculator\\TestCalculator.csproj",
         "projectName": "TestCalculator",
-        "projectPath": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\TestCalculator\\TestCalculator.csproj",
-        "packagesPath": "C:\\Users\\Lucas Santana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\TestCalculator\\obj\\",
+        "projectPath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\TestCalculator\\TestCalculator.csproj",
+        "packagesPath": "C:\\Users\\lsantana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\TestCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas Santana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lsantana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +89,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\Calculator.csproj": {
-                "projectPath": "C:\\Users\\Lucas Santana\\source\\repos\\Calculator\\Calculator\\Calculator.csproj"
+              "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj": {
+                "projectPath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj"
               }
             }
           }
@@ -131,7 +132,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -140,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

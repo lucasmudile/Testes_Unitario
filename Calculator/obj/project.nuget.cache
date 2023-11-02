@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9h7fn/8Q5wWdJ83UqybNr6Amv4mjXt4/XcmnZ/YoEc96QMBMyeh5Rb9BGjZittvg/nBVSjdwZq2yn22vLCliyw==",
+  "dgSpecHash": "GpGStoJ8HvZRemdcRcEUdsjvGDxtl0ntZ6TcQTNgwT2Zt98ad3KLaWKSSFjoMAYiUtKXPMS3Ri0zyTiikcLDkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lsantana\\Videos\\CI\\Testes_Unitario\\Calculator\\Calculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lsantana\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
   "logs": []
 }
